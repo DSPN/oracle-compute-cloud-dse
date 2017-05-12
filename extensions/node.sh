@@ -25,5 +25,5 @@ fi
 # OEL 6.7 does not have sysstat package pre-installed
 yum -y install sysstat
 
-# ./dse.sh $cloud_type $seed_node_ip_addr $location $opscenter_ip_addr
+
 
