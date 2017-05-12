@@ -11,17 +11,17 @@ mv ipListWithHeader.txt $timestamp_folder
 mv ipListWithoutHeader.txt $timestamp_folder
 
 
-##### Retrieve ssh public key name
+##### Retrieve SSH public key name
 sshKeyName=$1
 
-##### Retrieve ssh public key's fullpath name
+##### Retrieve SSH public key's fullpath name
 sshPublicKeyFilePath=$2
 
 ##### Retrieve the full path of a file storing your Oracle CLI's password
 # Make sure you "chmod 600" on it
 pwdFilePath=$3
 
-##### Retrieve ssh private key's fullpath name
+##### Retrieve SSH private key's fullpath name
 # Make sure you "chmod 600" on it
 sshPrivateKeyFilePath=$4
 
